@@ -1,0 +1,381 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>SolveCraft | Web &amp; Software Development Agency</title>
+  <meta name="description" content="SolveCraft helps businesses build professional websites and practical software solutions that make it easier to reach customers, showcase services, and grow online.">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <header class="site-header" id="site-header">
+    <nav class="nav container" aria-label="Main navigation">
+      <a class="brand" href="#home" aria-label="SolveCraft home">
+        <span class="brand-crop">
+          <img src="Assets/Images/logo.png" alt="SolveCraft" width="1080" height="1080">
+        </span>
+      </a>
+
+      <button class="nav-toggle" id="nav-toggle" type="button" aria-expanded="false" aria-controls="nav-menu" aria-label="Open menu">
+        <span class="nav-toggle-bar"></span>
+        <span class="nav-toggle-bar"></span>
+        <span class="nav-toggle-bar"></span>
+      </button>
+
+      <div class="nav-menu" id="nav-menu">
+        <ul class="nav-links">
+          <li><a href="#home" class="nav-link is-active">Home</a></li>
+          <li><a href="#services" class="nav-link">Services</a></li>
+          <li><a href="#portfolio" class="nav-link">Portfolio</a></li>
+          <li><a href="#contact" class="nav-link">Contact</a></li>
+        </ul>
+        <a href="#contact" class="btn btn-primary btn-nav">Let’s Talk</a>
+      </div>
+    </nav>
+  </header>
+
+  <main>
+    <section class="home" id="home" aria-labelledby="home-title">
+      <div class="container hero">
+        <div class="hero-copy">
+          <p class="eyebrow">Web &amp; Software Development Agency</p>
+          <h1 id="home-title">Digital Solutions Built Around Your Business.</h1>
+          <p class="hero-lead">SolveCraft helps businesses build professional websites and practical software solutions that make it easier to reach customers, showcase services, and grow online.</p>
+          <div class="hero-actions">
+            <a href="#contact" class="btn btn-primary">Discuss Your Project</a>
+            <a href="#portfolio" class="btn btn-secondary">Explore Our Work</a>
+          </div>
+        </div>
+
+        <div class="hero-visual" aria-hidden="true">
+          <!-- Desktop layout wireframe: fictional "Northstar Digital" demo site.
+               Photo: Pexels (free licence), exterior of a modern office building. -->
+          <div class="wf wf-desktop">
+            <div class="wf-bar">
+              <span class="wf-dot"></span><span class="wf-dot"></span><span class="wf-dot"></span>
+              <span class="wf-url">northstardigital.example</span>
+            </div>
+            <div class="wf-body">
+              <div class="wf-nav">
+                <span class="wf-brand"><span class="wf-mark"><svg viewBox="0 0 24 24" focusable="false"><path d="M12 1l2.6 8.4L23 12l-8.4 2.6L12 23l-2.6-8.4L1 12l8.4-2.6z"/></svg></span>Northstar Digital</span>
+                <span class="wf-nav-links"><span>Services</span><span>Work</span><span>About</span></span>
+                <span class="wf-pill">Contact</span>
+              </div>
+              <div class="wf-hero">
+                <div class="wf-hero-text">
+                  <span class="wf-title">Digital Experiences That Move Business Forward.</span>
+                  <span class="wf-copy">Websites and software for growing companies, designed and built with care.</span>
+                  <span class="wf-btn-row"><span class="wf-btn solid">Explore Services</span><span class="wf-btn">Get in Touch</span></span>
+                </div>
+                <div class="wf-hero-media"><img src="https://images.pexels.com/photos/30967522/pexels-photo-30967522/free-photo-of-symmetrical-modern-building-facade-in-bristol.jpeg?auto=compress&amp;cs=tinysrgb&amp;w=900" alt="" width="900" height="600" decoding="async"></div>
+              </div>
+              <div class="wf-cards">
+                <div class="wf-card"><span class="wf-card-head"><span class="wf-icon"><svg viewBox="0 0 24 24" focusable="false"><rect x="3" y="4" width="18" height="16" rx="2"/><path d="M3 9h18M8 14h8"/></svg></span>Website Design</span><span class="wf-card-copy">Clear, modern sites that win trust.</span></div>
+                <div class="wf-card"><span class="wf-card-head"><span class="wf-icon"><svg viewBox="0 0 24 24" focusable="false"><path d="M9 7l-5 5 5 5M15 7l5 5-5 5"/></svg></span>Development</span><span class="wf-card-copy">Fast, dependable web apps and tools.</span></div>
+                <div class="wf-card"><span class="wf-card-head"><span class="wf-icon"><svg viewBox="0 0 24 24" focusable="false"><path d="M4 18V9M10 18V5M16 18v-7M22 18H2"/></svg></span>Digital Solutions</span><span class="wf-card-copy">Booking, dashboards and automation.</span></div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Mobile layout wireframe: the same Northstar Digital site, adapted for a narrow screen -->
+          <div class="wf wf-phone">
+            <div class="wf-phone-notch"></div>
+            <div class="wf-phone-body">
+              <div class="wf-nav">
+                <span class="wf-brand"><span class="wf-mark"><svg viewBox="0 0 24 24" focusable="false"><path d="M12 1l2.6 8.4L23 12l-8.4 2.6L12 23l-2.6-8.4L1 12l8.4-2.6z"/></svg></span>Northstar Digital</span>
+                <span class="wf-burger"><i></i><i></i><i></i></span>
+              </div>
+              <span class="wf-title">Digital Experiences That Move Business Forward.</span>
+              <span class="wf-copy">Websites and software for growing companies.</span>
+              <span class="wf-btn solid wide">Explore Services</span>
+              <div class="wf-hero-media small"><img src="https://images.pexels.com/photos/30967522/pexels-photo-30967522/free-photo-of-symmetrical-modern-building-facade-in-bristol.jpeg?auto=compress&amp;cs=tinysrgb&amp;w=900" alt="" width="900" height="600" decoding="async"></div>
+              <div class="wf-list">
+                <span class="wf-row"><span class="wf-icon"><svg viewBox="0 0 24 24" focusable="false"><rect x="3" y="4" width="18" height="16" rx="2"/><path d="M3 9h18M8 14h8"/></svg></span>Website Design</span>
+                <span class="wf-row"><span class="wf-icon"><svg viewBox="0 0 24 24" focusable="false"><path d="M9 7l-5 5 5 5M15 7l5 5-5 5"/></svg></span>Development</span>
+              </div>
+            </div>
+          </div>
+
+          <!-- Code snippet -->
+          <div class="wf wf-code">
+            <div class="wf-code-head"><span class="wf-dot"></span><span class="wf-code-name">index.html</span></div>
+<pre><code><span class="ln"><span class="c-k">&lt;section</span> <span class="c-p">class</span>=<span class="c-s">"hero"</span><span class="c-k">&gt;</span></span>
+<span class="ln">  <span class="c-k">&lt;h1&gt;</span>Digital Experiences That</span>
+<span class="ln">    Move Business Forward.<span class="c-k">&lt;/h1&gt;</span></span>
+<span class="ln">  <span class="c-k">&lt;p&gt;</span>Websites and software for</span>
+<span class="ln">    growing companies.<span class="c-k">&lt;/p&gt;</span></span>
+<span class="ln">  <span class="c-k">&lt;button&gt;</span>Explore Services<span class="c-k">&lt;/button&gt;</span></span>
+<span class="ln">  <span class="c-k">&lt;button&gt;</span>Get in Touch<span class="c-k">&lt;/button&gt;</span></span>
+<span class="ln"><span class="c-k">&lt;/section&gt;</span></span></code></pre>
+          </div>
+        </div>
+      </div>
+
+      <div class="container intro">
+        <div class="intro-inner">
+          <p class="intro-label">Our approach</p>
+          <p class="intro-text">Every business is different, so we don’t reach for a one-size-fits-all template. SolveCraft designs and builds websites and software around what your business actually needs, so the result is clear, dependable, and easy for your customers to use.</p>
+        </div>
+      </div>
+    </section>
+
+    <section class="services" id="services" aria-labelledby="services-title">
+      <div class="container">
+        <header class="section-head">
+          <h2 id="services-title">Our Services</h2>
+          <p class="section-lead">Practical digital solutions designed around your business goals—from building your online presence to developing custom web functionality.</p>
+        </header>
+
+        <ul class="service-grid">
+          <li class="service-card">
+            <span class="service-num" aria-hidden="true">01</span>
+            <h3>Business Website Development</h3>
+            <p>Professional, responsive websites that help your business present its services clearly, build credibility, and make it easier for customers to get in touch.</p>
+            <ul class="tag-list" aria-label="Examples">
+              <li>Business websites</li>
+              <li>Service-based websites</li>
+              <li>Restaurant and real estate websites</li>
+            </ul>
+          </li>
+
+          <li class="service-card">
+            <span class="service-num" aria-hidden="true">02</span>
+            <h3>Landing Page Development</h3>
+            <p>Focused landing pages that communicate one clear message and guide visitors toward an action, whether that is making an inquiry, requesting a quote, or exploring an offer.</p>
+          </li>
+
+          <li class="service-card">
+            <span class="service-num" aria-hidden="true">03</span>
+            <h3>Custom Web Applications</h3>
+            <p>Interactive web applications built around specific business requirements, including forms, dashboards, user workflows, and custom features.</p>
+          </li>
+
+          <li class="service-card">
+            <span class="service-num" aria-hidden="true">04</span>
+            <h3>API &amp; Backend Development</h3>
+            <p>Backend functionality and API integrations that help websites and applications exchange data, connect services, and support business workflows.</p>
+            <ul class="tag-list" aria-label="Capabilities">
+              <li>REST APIs</li>
+              <li>Database integration</li>
+              <li>Server-side functionality</li>
+            </ul>
+          </li>
+
+          <li class="service-card">
+            <span class="service-num" aria-hidden="true">05</span>
+            <h3>Website Improvements &amp; Bug Fixes</h3>
+            <p>Improve an existing website with responsive layout fixes, UI adjustments, bug fixes, and useful feature enhancements.</p>
+            <p class="service-note">Already have a website? You don’t need a rebuild. We can work with what you have.</p>
+          </li>
+        </ul>
+
+        <div class="services-cta">
+          <div class="services-cta-copy">
+            <h3>Have a project in mind?</h3>
+            <p>Tell us what you need, and let’s explore a practical solution for your business.</p>
+          </div>
+          <a href="#contact" class="btn btn-primary">Discuss Your Project</a>
+        </div>
+      </div>
+    </section>
+
+    <section class="portfolio" id="portfolio" aria-labelledby="portfolio-title">
+      <div class="container">
+        <header class="section-head">
+          <h2 id="portfolio-title">Selected Website Concepts</h2>
+          <p class="section-lead">Explore website concepts designed around the needs of different businesses, combining clear layouts, realistic imagery, and practical functionality.</p>
+        </header>
+
+        <div class="concept-grid">
+
+          <!-- Concept 1: Restaurant -->
+          <article class="concept-card" data-concept-title="Restaurant Website Concept">
+            <div class="concept-window" aria-hidden="true" inert>
+              <div class="concept-chrome"><i></i><i></i><i></i><span></span></div>
+              <div class="concept-screen">
+                <div class="m-viewport m-fit m-fit--resto">
+                  <img class="m-shot" src="Assets/Images/restaurant.jpg" alt="" width="752" height="578" loading="lazy" decoding="async">
+                </div>
+              </div>
+            </div>
+
+            <div class="concept-body">
+              <span class="concept-label">Concept Project</span>
+              <h3>Restaurant Website Concept</h3>
+              <p>A warm, appetising website for a restaurant, with menu highlights, opening hours and a clear way to get in touch.</p>
+              <div class="concept-actions">
+                <button type="button" class="btn btn-secondary" data-concept-open>View Concept</button>
+                <a class="btn btn-secondary" href="https://shiveshcodes-io.github.io/restaurant-website-template/" target="_blank" rel="noopener">Live Demo</a>
+              </div>
+            </div>
+          </article>
+
+          <!-- Concept 2: Real estate -->
+          <article class="concept-card" data-concept-title="Real Estate Website Concept">
+            <div class="concept-window" aria-hidden="true" inert>
+              <div class="concept-chrome"><i></i><i></i><i></i><span></span></div>
+              <div class="concept-screen">
+                <div class="m-viewport m-fit m-fit--estate">
+                  <img class="m-shot" src="Assets/Images/realestate.jpg" alt="" width="1000" height="1500" loading="lazy" decoding="async">
+                </div>
+              </div>
+            </div>
+
+            <div class="concept-body">
+              <span class="concept-label">Concept Project</span>
+              <h3>Real Estate Website Concept</h3>
+              <p>A trustworthy property website for the fictional brand Haven Estates, with large photography, featured listings and clear actions to explore or book a visit.</p>
+              <div class="concept-actions">
+                <button type="button" class="btn btn-secondary" data-concept-open>View Concept</button>
+                <a class="btn btn-secondary" href="https://estanova-html-six.vercel.app/" target="_blank" rel="noopener">Live Demo</a>
+              </div>
+            </div>
+          </article>
+
+          <!-- Concept 3: Bakery (live project: https://new-bakery-website.web.app)
+               Preview image: full-page screenshot saved at Assets/Images/bakery-website-preview.png -->
+          <article class="concept-card" data-concept-title="Bakery Website">
+            <div class="concept-window" aria-hidden="true" inert>
+              <div class="concept-chrome"><i></i><i></i><i></i><span></span></div>
+              <div class="concept-screen">
+                <div class="m-viewport">
+                  <img class="m-shot" src="Assets/Images/bakery_mockup.jpg" alt="" loading="lazy" decoding="async">
+                </div>
+              </div>
+            </div>
+
+            <div class="concept-body">
+              <span class="concept-label">Live Project</span>
+              <h3>Bakery Website</h3>
+              <p>A live bakery website with featured products, category browsing, a first-order offer banner, an about section and recent news.</p>
+              <div class="concept-actions">
+                <button type="button" class="btn btn-secondary" data-concept-open>View Concept</button>
+                <a class="btn btn-secondary" href="https://new-bakery-website.web.app" target="_blank" rel="noopener">Live Demo</a>
+              </div>
+            </div>
+          </article>
+        </div>
+
+        
+      </div>
+
+      <dialog class="concept-dialog" id="concept-dialog" aria-labelledby="concept-dialog-title">
+        <div class="concept-dialog-bar">
+          <div>
+            <span class="concept-label">Concept Project</span>
+            <h3 id="concept-dialog-title"></h3>
+          </div>
+          <button type="button" class="concept-close" aria-label="Close concept">
+            <span aria-hidden="true">&times;</span>
+          </button>
+        </div>
+        <div class="concept-dialog-body"></div>
+      </dialog>
+    </section>
+
+    <section class="contact" id="contact" aria-labelledby="contact-title">
+      <div class="container contact-layout">
+        <div class="contact-intro">
+          <h2 id="contact-title">Let’s Talk About Your Project.</h2>
+          <p class="section-lead">Tell us a little about your business and what you want to build. Share your requirements, and let’s explore a practical solution that fits your goals.</p>
+
+          <div class="contact-guide">
+            <h3>Helpful details to include</h3>
+            <ul>
+              <li>What your business does and who your customers are</li>
+              <li>What you want built, or what you want improved on your current website</li>
+              <li>Any deadline, example sites you like, or features you need</li>
+            </ul>
+          </div>
+
+          <!-- Filled in by script.js, only for contact details set in CONTACT_CONFIG -->
+          <div class="contact-methods" id="contact-methods" hidden>
+            <h3>Prefer to reach out directly?</h3>
+            <ul class="contact-list" id="contact-list"></ul>
+          </div>
+        </div>
+
+        <div class="contact-card">
+          <form id="contact-form" class="contact-form" novalidate aria-describedby="cf-status">
+            <div class="form-row">
+              <div class="field">
+                <label for="cf-name">Full Name</label>
+                <input type="text" id="cf-name" name="name" autocomplete="name" placeholder="Your full name" required aria-describedby="cf-name-error">
+                <p class="field-error" id="cf-name-error" hidden></p>
+              </div>
+              <div class="field">
+                <label for="cf-email">Email Address</label>
+                <input type="email" id="cf-email" name="email" autocomplete="email" inputmode="email" placeholder="you@yourbusiness.com" required aria-describedby="cf-email-error">
+                <p class="field-error" id="cf-email-error" hidden></p>
+              </div>
+            </div>
+
+            <div class="field">
+              <label for="cf-type">Business / Project Type</label>
+              <select id="cf-type" name="projectType" required aria-describedby="cf-type-error">
+                <option value="" selected disabled>Select what you need</option>
+                <option>Business Website</option>
+                <option>Landing Page</option>
+                <option>Web Application</option>
+                <option>API / Backend Development</option>
+                <option>Website Improvements</option>
+                <option>Other</option>
+              </select>
+              <p class="field-error" id="cf-type-error" hidden></p>
+            </div>
+
+            <div class="field">
+              <label for="cf-details">Project Details</label>
+              <textarea id="cf-details" name="details" rows="6" placeholder="Describe your business, what you want to build, and any requirements or deadlines." required aria-describedby="cf-details-error"></textarea>
+              <p class="field-error" id="cf-details-error" hidden></p>
+            </div>
+
+            <div class="form-actions">
+              <button type="submit" class="btn btn-primary" id="cf-submit">Send Inquiry</button>
+            </div>
+            <p class="form-status" id="cf-status" role="status" aria-live="polite" hidden></p>
+          </form>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container">
+      <div class="footer-main">
+        <div class="footer-brand">
+          <a class="brand" href="#home" aria-label="SolveCraft, back to top">
+            <span class="brand-crop">
+              <img src="Assets/Images/logo.png" alt="SolveCraft" width="1080" height="1080" loading="lazy">
+            </span>
+          </a>
+          <p>SolveCraft is a Web &amp; Software Development Agency helping businesses build professional websites and practical digital solutions.</p>
+        </div>
+
+        <nav class="footer-group" aria-label="Footer">
+          <h2 class="footer-heading">Explore</h2>
+          <ul>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#services">Services</a></li>
+            <li><a href="#portfolio">Portfolio</a></li>
+            <li><a href="#contact">Contact</a></li>
+          </ul>
+        </nav>
+
+        <!-- Filled in by script.js, only for contact details set in CONTACT_CONFIG -->
+        <div class="footer-group" id="footer-contact" hidden>
+          <h2 class="footer-heading">Get in touch</h2>
+          <ul id="footer-contact-list"></ul>
+        </div>
+      </div>
+
+      <div class="footer-bottom">
+        <p>© 2026 SolveCraft. All rights reserved.</p>
+      </div>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
